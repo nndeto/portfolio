@@ -29,7 +29,18 @@ i:hover {
     color: white;
 }
 
-/* .skills {
+.about-image {
+    background: url("../images/profile-about.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    float: left;
+}
+
+.skills {
     display: flex;
     flex-flow: row wrap;
-} */
+    justify-content: space-evenly;
+    
+}
