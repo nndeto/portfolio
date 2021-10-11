@@ -42,5 +42,13 @@ i:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    
+    gap: 50px;
+}
+
+.skill-set-wrapper {
+    text-align: center;
+}
+
+.skill-text {
+    margin: 8px;
 }
