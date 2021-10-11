@@ -11,7 +11,7 @@
     background: url('../images/floating-flowers.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
 }
 
 .contact {
@@ -23,9 +23,13 @@
 
 i {
     color: #FFC0CB;
-    transition: width 2s;
 }
 
 i:hover {
     color: white;
 }
+
+/* .skills {
+    display: flex;
+    flex-flow: row wrap;
+} */
