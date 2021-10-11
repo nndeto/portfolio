@@ -10,28 +10,77 @@
     <title>Nicole Ndeto Portfolio</title>
 </head>
 <body>
-    <div>Put header photo here</div>
+    <!-- <div>Put header photo here</div> -->
     <!-- maybe have the above photo wrap the header -->
-    <header> 
+    <header class = "header"> 
         <!-- solid color here -->
-        <h1>I am <span id = "title-change"></span></h1>
+        <h1 class = "title">I am <span id = "title-change"></span></h1>
     </header>
     <!-- turn these icons red or statement color and link to appropriate pages -->
     <aside class = "contact-me-menu">
-        <a href = #><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href = "https://www.linkedin.com/in/nicole-ndeto/" target = "_blank" class = "contact"><i class="fab fa-linkedin fa-lg"></i></a>
         <br>
-        <a href = #><i class="fab fa-github-square fa-2x"></i></a>
+        <a href = "https://github.com/nndeto" target = "_blank" class = "contact"><i class="fab fa-github-square fa-lg"></i></a>
         <br>
-        <a href = #><i class="fas fa-envelope-square fa-2x"></i></a>
+        <a href = "mailto:n_ndeto@yahoo.com?subject = Portfolio Visitor" class = "contact"><i class="fas fa-envelope-square fa-lg"></i></a>
     </aside>
     <main>
-        <section>
-            This will be my projects
+        <section class = "projects">
+            <div class = "project-wrapper">
+                <div class = projects-words>
+                    <h3>Tamagotchi Game</h3>
+                    <h4>Front-end built game meant to simulate the 90's fad toy</h4>
+                    <p>HTML, CSS, JavaScript</p>
+                   <span>
+                       <a>Demo</a> |
+                       <a>Github</a>
+                   </span>
+                </div>
+                <div class = project-images>Screenshots Go Here</div>
+            </div>
+            <div class = "project-wrapper">
+                <div class = projects-words>
+                    <h3>journ.ey</h3>
+                    <h4>Server rendered sleek, minimalistic journaling app.</h4>
+                    <p>MongoDB/Mongoose, Express, Express Sessions, Node.js, jQuery, CSS, API, EJS</p>
+                   <span>
+                       <a>Demo</a> |
+                       <a>Github</a>
+                   </span>
+                </div>
+                <div class = project-images>Screenshots Go Here</div>
+            </div>
+            <div class = "project-wrapper">
+                <div class = projects-words>
+                    <h3>Wanderer</h3>
+                    <h4>Full stack built travel community blog application.</h4>
+                    <p>MongoDB/Mongoose, Express, Node.js, React, CSS, JSX</p>
+                   <span>
+                       <a>Demo</a> |
+                       <a>Github</a>
+                   </span>
+                </div>
+                <div class = project-images>Screenshots Go Here</div>
+            </div>
+            <div class = "project-wrapper">
+                <div class = projects-words>
+                    <h3>Roo</h3>
+                    <h4>Full stack built roommate finding app.</h4>
+                    <p>MongoDB/Mongoose, Express, Node.js, React, SCSS, API, Express Sessions, JSX</p>
+                   <span>
+                       <a>Demo</a> |
+                       <a>Github</a>
+                   </span>
+                </div>
+                <div class = project-images>Screenshots Go Here</div>
+            </div>
         </section>
-        <section>
+        <br />
+        <section class = "skills">
             This will be my technical skills
         </section>
-        <section>
+        <br />
+        <section class = "about">
             This will be my about 
         </section>
     </main>
