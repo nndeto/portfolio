@@ -6,6 +6,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/* HEADER & NAV STYLING */
 .header {
     height: 400px;
     background: url('../images/floating-flowers.jpg');
@@ -38,7 +40,6 @@
 .contact {
     display: flex;
     justify-content: flex-end;
-
     text-decoration: none;
 }
 
@@ -65,14 +66,17 @@ main {
     color: #AB7B79;
 }
 
+.project-title-space {
+    padding-top: 40px;
+}
+
 /* PROJECTS STYLING */
 .project-wrapper {
     margin: 50px 80px;
 }
 
 .project-title,
-.project-subtitle,
-.project-tech,
+.project-words,
 .project-links {
     padding: 8px;
 }
@@ -83,8 +87,7 @@ main {
     color: #AB7B79;
 }
 
-.project-subtitle,
-.project-tech {
+.project-words{
     color: #A6A29F;
 }
 
@@ -96,6 +99,21 @@ main {
     color: #BF8E34;
     text-decoration: none;
 }
+
+.project-images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.single-project-image {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
 
 /* SKILLS STYLING */
 .skills-wrapper {
@@ -120,7 +138,7 @@ main {
 }
 
 .skill-text {
-    margin: 8px;
+    margin: 10px;
 }
 
 /* ABOUT STYLING */
@@ -153,7 +171,13 @@ main {
     text-align: center;
 }
 
-.accent-text {
+.accent-text,
+.accent-text-greet {
     color: #AB7B79;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.accent-text-greet {
+    font-size: 2rem;
 }
