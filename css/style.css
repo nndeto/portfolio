@@ -12,15 +12,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    background-attachment: fixed;
     display: flex;
     align-items: flex-end;
 }
 
 .title {
-   font-size: 7rem;
+   font-size: 5.5rem;
    letter-spacing: 3px;;
    margin: 0px 0px 20px 40px;
-   font-family: 'Sacramento', cursive;
    color: white;
 }
 
@@ -50,23 +50,26 @@ i:hover {
     color: white;
 }
 
+
+/* GENERAL STYLING OF MAIN SECTIONS */
+main {
+   background: #D9D9D980; 
+}
+
 .section-title {
     text-align: center;
-    margin: 20px;
+    padding: 20px;
     font-size: 3rem;
     font-family: 'Fredoka One', cursive;
     letter-spacing: 4px;
+    color: #AB7B79;
 }
 
-.about-image {
-    background: url("../images/profile-about.jpg");
-    background-position: center;
-    background-size: cover;
-    width: 600px;
-    height: 400px;
-    float: left;
-}
+/* PROJECTS STYLING */
 
+
+
+/* SKILLS STYLING */
 .skills-wrapper {
     display: flex;
     flex-flow: row wrap;
@@ -81,4 +84,15 @@ i:hover {
 
 .skill-text {
     margin: 8px;
+}
+
+
+/* ABOUT STYLING */
+.about-image {
+    background: url("../images/profile-about.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    float: left;
 }
