@@ -14,6 +14,13 @@
     background-position: top center;
 }
 
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 300px;
+    z-index: 1;
+}
+
 .contact {
     display: flex;
     justify-content: flex-end;
@@ -38,11 +45,12 @@ i:hover {
     float: left;
 }
 
-.skills {
+.skills-wrapper {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 50px;
+    padding: 100px;
 }
 
 .skill-set-wrapper {
