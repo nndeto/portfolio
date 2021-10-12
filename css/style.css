@@ -92,8 +92,9 @@ main {
     border-right: 2px solid gray;
 } */
 
-.project-links {
+.project-links a{
     color: #BF8E34;
+    text-decoration: none;
 }
 
 /* SKILLS STYLING */
