@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Homemade+Apple&family=Montserrat&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Fredoka+One&family=Homemade+Apple&family=Montserrat&family=Sacramento&display=swap');
 
 * {
     margin: 0px;
@@ -42,32 +42,59 @@
     text-decoration: none;
 }
 
-i {
+.nav i {
     color: #FFC0CB;
 }
 
-i:hover {
-    color: white;
+.nav i:hover {
+    color: #BF8E34;
 }
 
 
 /* GENERAL STYLING OF MAIN SECTIONS */
 main {
-   background: #D9D9D980; 
+   background: #D9D9D930; 
 }
 
 .section-title {
     text-align: center;
     padding: 20px;
-    font-size: 3rem;
-    font-family: 'Fredoka One', cursive;
+    font-size: 3.2rem;
+    font-family: 'Bellota', cursive;
     letter-spacing: 4px;
     color: #AB7B79;
 }
 
 /* PROJECTS STYLING */
+.project-wrapper {
+    margin: 80px;
+}
 
+.project-title,
+.project-subtitle,
+.project-tech,
+.project-links {
+    padding: 8px;
+}
 
+.project-title {
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 1px;
+    color: #AB7B79;
+}
+
+.project-subtitle,
+.project-tech {
+    color: #A6A29F;
+}
+
+/* .projects-words {
+    border-right: 2px solid gray;
+} */
+
+.project-links {
+    color: #BF8E34;
+}
 
 /* SKILLS STYLING */
 .skills-wrapper {
@@ -76,10 +103,19 @@ main {
     justify-content: center;
     gap: 50px;
     padding: 80px;
+    color: #A6A29F;
 }
 
 .skill-set-wrapper {
     text-align: center;
+}
+
+.skill-set-wrapper i {
+    color: #BF8E34;
+}
+
+.skill-set-wrapper i:hover {
+    color: #AB7B79;
 }
 
 .skill-text {
@@ -88,11 +124,15 @@ main {
 
 
 /* ABOUT STYLING */
+.about {
+    margin: 0px 80px;
+    padding-bottom: 80px;
+}
+
 .about-image {
     background: url("../images/profile-about.jpg");
     background-position: center;
     background-size: cover;
     width: 600px;
     height: 400px;
-    float: left;
 }
