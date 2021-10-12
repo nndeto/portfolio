@@ -144,7 +144,6 @@ main {
 /* ABOUT STYLING */
 .about-wrapper {
     margin: 50px 80px;
-    padding-bottom: 80px;
     display: inline-block;
 }
 
@@ -169,6 +168,7 @@ main {
     padding-left: 50px;
     color: #A6A29F;
     text-align: center;
+    line-height: 150%;
 }
 
 .accent-text,
@@ -180,4 +180,27 @@ main {
 
 .accent-text-greet {
     font-size: 2rem;
+}
+
+/* FOOTER STYLING */
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 40px;
+    text-decoration: none;;
+}
+
+footer span,
+footer p {
+    color: #A6A29F;
+    padding: 10px;
+}
+
+footer a {
+    color: #FFC0CB;
+}
+
+footer a:hover {
+        color: #BF8E34;
 }
