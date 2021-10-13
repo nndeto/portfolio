@@ -73,12 +73,7 @@ main {
 /* PROJECTS STYLING */
 .project-wrapper {
     margin: 50px 80px;
-}
-
-.project-title,
-.project-words,
-.project-links {
-    padding: 8px;
+    display: inline-block
 }
 
 .project-title {
@@ -87,26 +82,28 @@ main {
     color: #AB7B79;
 }
 
+.project-title,
+.project-words,
+.project-links {
+    padding: 8px;
+}
+
 .project-words{
     color: #A6A29F;
 }
-
-/* .projects-words {
-    border-right: 2px solid gray;
-} */
 
 .project-links a{
     color: #BF8E34;
     text-decoration: none;
 }
 
+.projects-words,
 .project-images {
-    /* display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    gap: 50px; */
-    margin: 20px;
+    display:inline-block;
+    width: 50%;
+    vertical-align: middle;
 }
+
 
 .single-project-image {
     width: 400px;
