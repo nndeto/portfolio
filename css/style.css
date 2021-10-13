@@ -80,8 +80,8 @@ main {
     /* width: 100%; */
 }
 
-.projects-words,
-.project-images {
+.project-images,
+.projects-words {
     display: inline-block;
     width: 50%;
     /* padding-left: 40px; */
