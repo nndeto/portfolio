@@ -101,10 +101,10 @@ main {
 }
 
 .project-images {
-    display: flex;
+    /* display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 50px; */
     margin: 20px;
 }
 
