@@ -19,7 +19,8 @@
     align-items: flex-end;
 }
 
-.title {
+.title,
+.title-change {
    font-size: 5.5rem;
    letter-spacing: 3px;;
    margin: 0px 0px 20px 40px;
@@ -145,26 +146,29 @@ main {
 /* ABOUT STYLING */
 .about-wrapper {
     margin: 50px 80px;
-    display: inline-block;
+    display: flex;
 }
 
 .about-text,
 .about-image {
-    display:inline-block;
+    /* display:inline-block;
     width: 50%;
-    vertical-align:middle;
+    vertical-align:middle; */
+    flex: 50%;
 }
 
 .about-image {
     background: url("../images/profile-about.jpg");
     background-position: center;
     background-size: cover;
+    /* max-width: 100%;; */
     width: 600px;
     height: 400px;
     border-radius: 10px;
 }
 
 .about-text {
+    margin-top: 60px;
     padding-left: 50px;
     color: #A6A29F;
     text-align: center;
@@ -203,4 +207,34 @@ footer a {
 
 footer a:hover {
         color: #BF8E34;
+}
+
+@media screen and (max-width: 800px) {  
+
+  .about-image,
+  .single-project-image {
+      width: 400px;
+      /* height: auto; */
+  }
+
+  .project-wrapper {
+      display: block;
+  }
+
+  .projects-words {
+      padding-bottom: 20px;
+  }
+
+  .about-wrapper {
+      display: block;
+  }
+
+  .about-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav {
+    top: 10px;
+  }
 }
