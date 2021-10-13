@@ -55,7 +55,7 @@
 }
 
 .nav i:hover {
-    color: #BF8E34;
+    color: #AB7B79;
 }
 
 
@@ -86,7 +86,7 @@ main {
 
 .projects-words,
 .project-images {
-    display:inline-block;
+    display: inline-block;
     width: 50%;
     vertical-align: middle;
 }
