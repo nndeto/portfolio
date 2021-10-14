@@ -6,7 +6,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
 /* HEADER & NAV STYLING */
 .header {
     height: 400px;
@@ -21,10 +20,10 @@
 
 .title,
 .title-change {
-   font-size: 5.5rem;
+   font-size: 5.8rem;
    letter-spacing: 3px;;
    margin: 0px 0px 20px 40px;
-   color: white;
+   color: #FFFFFF;
 }
 
 .nav {
@@ -55,10 +54,17 @@
     color: #AB7B79;
 }
 
-
 /* GENERAL STYLING OF MAIN SECTIONS */
+
 main {
-   background: #D9D9D910; 
+    background: url('/images/testc.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+   background: #F2F2F2;
 }
 
 .section-title {
@@ -76,7 +82,7 @@ main {
 
 /* PROJECTS STYLING */
 .project-wrapper {
-    margin: 80px 80px;
+    margin: 80px 80px 180px 80px;
     display: flex;
 }
 
@@ -88,7 +94,7 @@ main {
 .project-title {
     font-family: 'Fredoka One', cursive;
     letter-spacing: 1px;
-    color: #8C1C03; 
+    color: #A62317; 
 }
 
 .project-title,
@@ -123,7 +129,7 @@ main {
     flex-flow: row wrap;
     justify-content: center;
     gap: 50px;
-    margin: 50px 80px;
+    margin: 50px 80px 180px 80px;
     color: #A6A29F;
 }
 
@@ -132,11 +138,11 @@ main {
 }
 
 .skill-set-wrapper i {
-    color: #BF8E34;
+    color: #B99B83;
 }
 
 .skill-set-wrapper i:hover {
-    color: #8C1C03;
+    color: #A62317;
 }
 
 .skill-text {
@@ -145,7 +151,7 @@ main {
 
 /* ABOUT STYLING */
 .about-wrapper {
-    margin: 50px 80px;
+    margin: 50px 80px 0px 80px;
     display: flex;
 }
 
@@ -158,6 +164,7 @@ main {
     background: url("../images/profile-about.jpg");
     background-position: center;
     background-size: cover;
+    margin-bottom: 15px;
     width: 600px;
     height: 400px;
     border-radius: 10px;
@@ -173,7 +180,7 @@ main {
 
 .accent-text,
 .accent-text-greet {
-    color: #8C1C03;
+    color: #A62317;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -186,10 +193,10 @@ main {
 
 footer {
     text-align: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     padding-bottom: 40px;
     text-decoration: none;
-    background: #D9D9D940;
+    background: #e8e8e890;
     padding: 20px;
 }
 
@@ -204,8 +211,10 @@ footer a {
 }
 
 footer a:hover {
-        color: #BF8E34;
+        color: #AB7B79;
 }
+
+/* MEDIA QUERIES */
 
 @media screen and (max-height: 700px) {
     .nav {
@@ -213,11 +222,9 @@ footer a:hover {
     }
 
     .vertical-menu {
-        color: #8C1C03;
+        color: #A62317;
     }
 }
-
-
 
 @media screen and (max-width: 800px) {  
 
@@ -248,7 +255,7 @@ footer a:hover {
   }
 
   .vertical-menu {
-    color: #8C1C03;
+    color: #A62317;
     }
 }
 
