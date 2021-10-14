@@ -18,8 +18,7 @@
     align-items: flex-end;
 }
 
-.title,
-.title-change {
+.title {
    font-size: 5.8rem;
    letter-spacing: 3px;;
    margin: 0px 0px 20px 40px;
@@ -230,7 +229,7 @@ footer a:hover {
 
   .about-image,
   .single-project-image {
-      width: 400px;
+      width: 100%;
   }
 
   .project-wrapper {
@@ -259,9 +258,45 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .about-image,
-    .project-images {
-        width: 200px;
+    .single-project-image{
+        width: 100%;
+    }
+
+    .title {
+        font-size: 5rem;
+    }
+
+    .nav i {
+        color: #A62317;
+    }
+
+    .project-wrapper,
+    .skills-wrapper {
+        margin: 40px 60px 180px 60px;
+    }
+
+    .about-wrapper {
+        margin: 40px 60px 0px 60px;
+    }
+
+    .about-text {
+        font-size: 1rem;
+        padding-left: 0px;
+    }
+
+    footer {
+       text-align: center;
+    }
+
+    footer span,
+    footer p {
+        color: white;
+        font-weight: bold;
+    }
+
+    footer span {
+        margin: 20px;
     }
 }
