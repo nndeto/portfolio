@@ -71,7 +71,7 @@ main {
 }
 
 .project-title-space {
-    padding: 60px 0px;
+    padding-top: 60px;
 }
 
 /* PROJECTS STYLING */
@@ -151,9 +151,6 @@ main {
 
 .about-text,
 .about-image {
-    /* display:inline-block;
-    width: 50%;
-    vertical-align:middle; */
     flex: 50%;
 }
 
@@ -161,7 +158,6 @@ main {
     background: url("../images/profile-about.jpg");
     background-position: center;
     background-size: cover;
-    /* max-width: 100%;; */
     width: 600px;
     height: 400px;
     border-radius: 10px;
@@ -193,7 +189,7 @@ footer {
     margin-top: 80px;
     padding-bottom: 40px;
     text-decoration: none;
-    /* background: #D9D9D9;  */
+    background: #D9D9D940;
     padding: 20px;
 }
 
