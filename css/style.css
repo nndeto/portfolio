@@ -57,7 +57,7 @@
 /* GENERAL STYLING OF MAIN SECTIONS */
 
 main {
-    background: url('/images/testc.jpg'); 
+    background: url('./images/testc.jpg'); 
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
