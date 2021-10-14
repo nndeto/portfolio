@@ -88,3 +88,5 @@ wandererImage.addEventListener("mouseout", wChangeTwo)
 rooImage.addEventListener("mouseover", rChangeOne)
 rooImage.addEventListener("mouseout", rChangeTwo)
 
+
+console.log("hello")
