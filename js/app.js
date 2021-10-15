@@ -3,38 +3,6 @@ const tamagotchiImage = document.getElementById("tamagotchi-img");
 const journeyImage = document.getElementById("journey-img");
 const wandererImage = document.getElementById("wanderer-img");
 const rooImage = document.getElementById("roo-img")
-// const headerText = document.getElementById("title-change")
-// let time = 0;
-// let timeInterval = null;
-
-// header text change effect 
-// function textChange() {
-//     if (time < 3) {
-//         headerText.textContent = "."
-//     } 
-//     if (time > 3) {
-//         headerText.textContent = ", developer"
-//     } 
-//     if (time > 6) {
-//         headerText.textContent = ", dreamer"
-//     } 
-//     if (time > 9) {
-//         headerText.textContent = ", doer"
-//     }
-//     if (time > 12) {
-//         headerText.textContent = "."
-//     }
-// }
-
-// function change() {
-//     timeInterval = setInterval(function() {
-//         time++
-//         console.log(time)
-//         textChange()
-//     }, 1000)
-// }
-
-// change()
 
 //img sources
 const tSOne = "images/project-images/tamagotchi-landing.png";
