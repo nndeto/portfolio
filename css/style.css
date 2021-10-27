@@ -144,13 +144,13 @@ section {
     color: #A62317;
 }
 
-.visible-i {
+/* .visible-i {
     display: contents;
 }
 
 .hidden-i {
     display: none;
-}
+} */
 
 .skill-text {
     margin: 10px;
@@ -294,7 +294,7 @@ footer a:hover {
         justify-content: space-evenly;
     }
 
-    .visible-i {
+    /* .visible-i {
         display: none;
     }
 
@@ -304,7 +304,7 @@ footer a:hover {
 
     .skill-text {
         font-size: .9rem;
-    }
+    } */
 
     .about-wrapper {
         margin: 40px 60px 0px 60px;
