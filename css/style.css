@@ -200,7 +200,6 @@ section {
 
 footer {
     text-align: center;
-    /* margin-top: 80px; */
     padding-bottom: 40px;
     text-decoration: none;
     background: #e8e8e890;
@@ -290,21 +289,13 @@ footer a:hover {
 
     .skills-wrapper {
         margin: 40px 35px 180px 35px;
-        gap: 20px;
+        gap: 20x;
         justify-content: space-evenly;
     }
-
-    /* .visible-i {
+    
+    .hide-me {
         display: none;
     }
-
-    .hidden-i {
-        display: contents;
-    }
-
-    .skill-text {
-        font-size: .9rem;
-    } */
 
     .about-wrapper {
         margin: 40px 60px 0px 60px;
