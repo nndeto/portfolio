@@ -144,6 +144,10 @@ section {
     color: #A62317;
 }
 
+.visible-i {
+    display: contents;
+}
+
 .hidden-i {
     display: none;
 }
