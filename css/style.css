@@ -280,9 +280,14 @@ footer a:hover {
         font-size: 2.8rem;
     }
 
-    .project-wrapper,
-    .skills-wrapper {
+    .project-wrapper {
         margin: 40px 60px 180px 60px;
+    }
+
+    .skills-wrapper {
+        margin: 40px 35px 180px 35px;
+        gap: 20px;
+        justify-content: space-evenly;
     }
 
     .visible-i {
@@ -291,6 +296,10 @@ footer a:hover {
 
     .hidden-i {
         display: contents;
+    }
+
+    .skill-text {
+        font-size: .9rem;
     }
 
     .about-wrapper {
