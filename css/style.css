@@ -144,6 +144,10 @@ section {
     color: #A62317;
 }
 
+.hidden-i {
+    display: none;
+}
+
 .skill-text {
     margin: 10px;
 }
@@ -272,9 +276,21 @@ footer a:hover {
         color: #A62317;
     }
 
+    .section-title {
+        font-size: 2.8rem;
+    }
+
     .project-wrapper,
     .skills-wrapper {
         margin: 40px 60px 180px 60px;
+    }
+
+    .visible-i {
+        display: none;
+    }
+
+    .hidden-i {
+        display: contents;
     }
 
     .about-wrapper {
@@ -282,18 +298,23 @@ footer a:hover {
     }
 
     .about-text {
-        font-size: 1rem;
+        font-size: .9rem;
         padding-left: 0px;
+        padding-bottom: 6px;
+    }
+
+    .accent-text,
+    .accent-text-greet {
+        font-size: 1.1rem;
+    }
+
+    .accent-text-greet {
+        font-size: 1.8rem;
     }
 
     footer {
        text-align: center;
-    }
-
-    footer span,
-    footer p {
-        color: white;
-        font-weight: bold;
+       background: #e8e8e8
     }
 
     footer span {
