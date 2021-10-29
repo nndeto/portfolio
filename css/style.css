@@ -9,7 +9,7 @@
 /* HEADER & NAV STYLING */
 .header {
     height: 400px;
-    background: url('../images/floating-flowers.jpg');
+    background: url('../images/floating-flowers.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -56,7 +56,7 @@
 /* GENERAL STYLING OF MAIN SECTIONS */
 
 main {
-    background: url('../images/testc.jpg'); 
+    background: url('../images/testc.webp'); 
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -168,7 +168,7 @@ section {
 }
 
 .about-image {
-    background: url("../images/profile-about.jpg");
+    background: url("../images/profile-about.webp");
     background-position: center;
     background-size: cover;
     margin-bottom: 15px;
