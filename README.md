@@ -23,7 +23,7 @@ Experimenting with media queries to make my portfolio responsive across differen
 Implementing a vertical and fixed navbar was something I tried for the first time with, and I learned a lot by playing with different css properties. 
 
 # Performance Improvements
-Utilized Google Lighthouse to get performance data and find opportunities for improvement. Tapped into resources to learn how to implement ".webp" images and converted all site images to that type. Improved Lighthouse scores for both mobile and desktop. 
+Utilized PageSpeed Insights to get performance data and find opportunities for improvement. Tapped into resources to learn how to implement ".webp" images and converted all site images to that type. Improved Lighthouse scores for both mobile and desktop. 
 * Before
     * Mobile - 27
     * Desktop - 75

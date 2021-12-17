@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Fredoka+One&family=Homemade+Apple&family=Montserrat&family=Sacramento&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bellota&family=Fredoka+One&family=Homemade+Apple&family=Montserrat&family=Sacramento&display=swap'); */
 
 * {
     margin: 0px;
@@ -113,8 +113,8 @@ section {
 
 
 .single-project-image {
-    width: 500px;
-    height: auto;
+    /* width: 500px;
+    height: auto; */
     border-radius: 10px;
 }
 
